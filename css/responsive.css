@@ -1,0 +1,35 @@
+@media screen and (max-width:1125px){
+	.nav-top .navbar{
+		margin-bottom:0;
+		
+	}
+	.collapse ul{
+		margin:10px 0;
+	}
+	.nav-top .navbar .nav li a{
+		padding-top:15px;
+		text-align:center;
+    }
+}
+@media screen and (max-width:991px){
+	.collapse ul li:last-child{
+		padding-left:41%;
+	}
+}
+@media screen and (max-width:407px){
+	.nav-top .navbar .navbar-header a{
+		font-size:25px;
+	
+    }
+}
+@media screen and (max-width:767px){
+	.nav-top .navbar .nav{
+		background:rgba(0,0,0,0.7);
+    }
+	.nav-top .navbar .nav li:hover{
+	background:#5E5E5E;
+}
+.collapse ul li:last-child{
+		padding-left:0;
+	}
+}

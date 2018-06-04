@@ -1,0 +1,481 @@
+body{
+	font-family:"Open Sans", sans-serif;
+}
+
+
+/*--------------------------- header  -------------------*/
+header{
+	position:relative;
+	overflow:hidden;
+	padding-bottom:117px;
+}
+.sticky{
+	position:fixed;
+	width:100%;
+	z-index:99;
+}
+.menu-bg{
+	background:#112649;
+	border-bottom:5px solid #b6f9c1;
+	box-shadow:0 5px 10px #d7e5d9;
+}
+header .full-screen .overlay-bg{
+	background:rgba(0,0,0,0.4);
+	position:absolute;
+	width:100%;
+	height:100%;
+	overflow:hidden;
+	z-index:2;
+}
+.nav-top{
+	padding-top:50px;
+}
+.nav-top .navbar{
+	background:none;
+	border:none;
+	box-shadow:none;
+	z-index:5;
+}
+.nav-top .navbar .navbar-header a{
+	font-size:38px;
+	/*text-decoration-line:underline;
+	text-decoration-style:double;*/
+	color:#fff;
+	margin-top:-15px;
+}
+hr{
+    margin-top: 12px; 
+    margin-bottom: 3px;
+    border-top: 4px solid #eee;
+}
+hr:last-child{
+	margin-top:0;
+	width:320px;
+}
+.nav-top .navbar .nav li{
+	text-align:center;
+}
+.nav-top .navbar .nav li a{
+    font-weight: 400;
+    font-size: 19px;
+    color:#fff;
+    text-transform: uppercase;
+	margin:0;
+	padding:5px 10px 5px;
+	text-align:center;
+} 
+.header-container{
+	position:relative;
+	z-index:5;
+	padding-top:130px;
+}
+.header-container .heading h1{
+	font-weight: 700;
+    font-size: 36px;
+    line-height: 36px;
+    text-transform: initial;
+	padding-top:10px;
+	padding-bottom:10px;
+	color:#fff;
+}
+.header-container h3{
+	font-weight: 400;
+    font-size: 25px;
+    line-height: 40px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+	color:#fff;
+}
+
+.header-container .header-button a{
+	border:1px solid red;
+	padding:10px;
+	border-radius:0;
+	color:#fff;
+}
+/*--------------------------- service  -------------------*/
+.service{
+	padding:50px 0;
+}
+.heading{
+	margin-bottom:50px;
+}
+.service-heading{
+	color:#000;
+	font-weight:700px;
+	font-size:36px;
+	margin:20px;
+	text-transform:uppercase;
+	font-family:"Open Sans", sans-serif;
+	font-weight:bold;
+}
+.service-sub-heading{	
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #000;
+    line-height: 25px;
+}
+.service-list{
+	box-sizing:border-box;
+}
+.service-list p{
+	font-size:16px;
+	font-weight:600px;
+	font-weight:bold;
+}
+.service-list ul{
+	margin-bottom:10px;
+	padding:0;
+}
+.service-list li{
+	list-style:none;
+	color:#333333;
+	font-size:16px;
+}
+.service-list li:before{
+	content: '-';
+    margin-right: 10px;
+}
+/*--------------------------- project service first -------------------*/
+.project-section-first{
+	position:relative;
+	overflow:hidden;
+}
+.project-section-first .overlay-bg{
+	position:absolute;
+	background:rgba(0,0,0,0.5);
+	width:100%;
+	height:100%;
+	z-index:2;
+}
+.project-section-first .container{
+	position: relative;
+    z-index: 3;
+    line-height: 25px;
+    padding: 50px 0;
+    text-align: center;
+}
+.project-section-first .heading{
+	color:#fff;
+	margin-bottom:50px;
+	padding:10px;
+}
+.project-section-first .heading h1{
+	font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    margin: 20px;
+
+}
+.project-section-first .heading p{
+	font-size:22px;
+	line-height:25px;
+	font-weight:600;
+	
+}
+/*--------------------------- project service second -------------------*/
+.project-section-second{
+	background:#a6a6a6;
+	padding-top:50px;
+	padding-bottom:40px;
+}
+.client-box .img-center{
+	margin: 0 auto 20px;
+	max-width:100%;
+	display:block;
+	
+}
+.client-box .client-para{
+    background-color: #fff;
+    padding: 10px;
+    color: #000;
+    margin: 15px 10px;
+    line-height: 20px;
+    font-weight: 600;
+    min-height: 260px;
+    text-align: left;
+}
+.client-box .client-para h5{
+	margin:0;
+	font-size:18px;
+}
+.client-box .client-para p{
+	color:#333;
+}
+/*--------------------------- project service third -------------------*/
+.project-section-third{
+	background-color: #bfbfbf;
+	padding-top:50px;
+	padding-bottom:40px;
+}
+/*--------------------------- project service fourth -------------------*/
+.project-section-fourth{
+	background-color: #d9d9d9;
+	padding-top:50px;
+	padding-bottom:40px;
+}
+/*--------------------------- qualification service -------------------*/
+
+.qualification{
+	padding-top:45px;
+}
+.qual-heing{
+	margin-bottom: 20px;
+    line-height: 25px;
+}
+.qual-heing-section{
+	color:#333;
+	font-weight:700px;
+	font-size:36px;
+	margin:20px;
+	text-transform:uppercase;
+	font-weight:bold;
+}    
+.qual-heing p{
+	font-size:16px;
+	font-weight:600px;
+	font-weight:bold;
+}
+.qual-body{
+	font-size: 16px;
+    color: #000;
+    line-height: 25px;
+    margin-top: 50px;
+}
+.qual-body h4{
+	margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 16px;
+}
+.qual-body img{
+	margin-left:100px;
+}
+.qual-list{
+	margin-bottom:10px;
+	padding:0;
+}
+.qual-list li{
+	list-style:none;
+	font-size:16px;
+	line-height:25px;
+}
+.qual-list li:before{
+	content:'-';
+	margin-right:10px;
+}
+.qual-para{
+	font-size:16px;
+	line-height:25px;
+}
+.alvin-wong{
+	font-size: 16px;
+    color: #000;
+    line-height: 25px;
+    margin-top: 50px;
+}
+.alvin-wong h4{
+	margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 16px;
+}
+.alvin-wong img{
+	margin-left:100px;
+}
+.charley{
+	font-size: 16px;
+    color: #000;
+    line-height: 25px;
+    margin-top: 50px;
+}
+.charley img{
+	margin-left:100px;
+	margin-top:50px;
+}
+.charley .list{
+	padding:0;
+	list-style-position:inside;
+}
+.ASSOCIATES{
+   font-size: 16px;
+    color: #000;
+    line-height: 25px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.ASSOCIATES h4{
+	font-weight:bold;
+	margin-bottom:40px;
+}
+.ASSOCIATES .list{
+	padding-left:15px;
+}
+/*--------------------------- fees service -------------------*/
+.fees{
+	position:relative;
+	overflow:hidden;
+	
+}
+.fees .overlay-bg{
+	position:absolute;
+	background:rgba(0,0,0,0.5);
+	width:100%;
+	height:100%;
+	overflow:hidden;
+	z-index:2;
+}
+.full-screen video{
+	position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: ;
+}
+.fees .container{
+    position: relative;
+    z-index: 3;
+    color: #fff;
+    padding: 60px;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 600;
+    text-align: left;
+}
+.fees .heading{
+	margin-bottom: 40px;
+    line-height: 25px;
+	
+}
+.fees .heading h1{
+	font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    margin: 20px;
+}
+.fees .body ul{
+	padding-left:16px;
+}
+.fees .body p a{
+	text-decoration:underline;
+}
+/*--------------------------- contact service -------------------*/
+.contact{
+    background-color: #f2f2f2;
+    padding: 60px 0;
+}
+.contact-heading{
+	margin-bottom:50px;
+}
+.contact-heading h1{
+	font-size:36px;
+	font-weight:bold;
+	line-height:40px;
+}
+	
+.contact-heading p{
+	font-size:16px;
+	line-height:23px;
+	font-weight:600px;
+	font-weight:bold;
+}
+address{
+	font-size: 26px;
+    line-height: 42px;
+    color: #000;
+    text-align: center;
+    font-weight: bold;
+}
+.contact-form{
+	background:#fff;
+	border:1px solid #bebdbd;
+	padding:40px;
+}
+.contact-form p{
+	font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.form-contral{
+	 margin: 15px 0;
+    padding: 15px;
+    border-radius: 0;
+    border: 1px solid #bebdbd;
+    height: 50px;
+	width:100%;
+}
+/*--------------------------- about service -------------------*/
+.about-name{
+	padding: 60px 0;
+    background-color: #bfbfbf;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 600;
+}
+.about-container{
+	margin-bottom:120px;
+}
+.about-container h1{
+	font-size:36px;
+	font-weight:bold;
+	line-height:40px;
+}
+.about-container p{
+	font-size: 16px;
+    font-weight: 600;
+	line-height:23px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.perspective h1{
+	font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    margin: 20px;
+    text-transform: uppercase;
+}
+.perspective .para-1{
+    text-align:center;
+	font-size: 16px;
+    font-weight: 600;
+	line-height:23px;
+    margin-bottom: 40px;
+}
+.perspective .para-2,
+.perspective .para-3,
+.perspective .para-6,
+.perspective .para-7{
+	margin-bottom:20px;
+	color:#333333;
+}
+.perspective ul{
+	padding-left:15px;
+}
+.perspective .img-center{
+	margin:0 auto
+}
+.perspective .img-responsive{
+	display: block;
+    max-width: 100%;
+    height: auto;
+}
+/*--------------------------- footer -------------------*/
+footer{
+	background-color: #f2f2f2;
+    padding: 60px 0;
+    text-align: center;
+    font-size: 16px;
+}
+footer p{
+	font-size:16px;
+	line-height:23px;
+	font-weight:bold;
+}
+footer p a{
+	text-decoration:underline;
+}
+
+
+
+
